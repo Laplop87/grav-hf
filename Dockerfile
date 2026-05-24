@@ -1,0 +1,7 @@
+FROM lscr.io/linuxserver/grav:latest
+ENV PORT=7860
+ENV WEBUI_PORT=7860
+ENV USER=admin
+ENV PUID=1000
+ENV PGID=1000
+EXPOSE 7860
